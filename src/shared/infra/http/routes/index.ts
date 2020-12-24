@@ -9,10 +9,10 @@ import profileRouter from '@modules/users/infra/http/routes/profile.routes';
 const routes = Router();
 
 routes.use('/appointments', appointmentsRouter);
+routes.use('/providers', providersRouter);
 routes.use('/users', usersRouter);
 routes.use('/sessions', sessionsRouter);
 routes.use('/password', passwordRoutes);
 routes.use('/profile', profileRouter);
-routes.use('/providers', providersRouter);
 
 export default routes;
