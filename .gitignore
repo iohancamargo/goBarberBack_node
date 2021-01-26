@@ -11,3 +11,4 @@ coverage/*
 yarn.lock
 ormconfig.json
 tmp/uploads/*
+tmp/*
